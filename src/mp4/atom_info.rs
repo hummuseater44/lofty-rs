@@ -18,10 +18,10 @@ pub enum AtomIdent {
 	///
 	/// ```text
 	/// ----:com.apple.iTunes:SUBTITLE
-	/// ─┬── ────────┬─────── ───┬────
-	///  ╰freeform identifier    ╰name
-	///              |
-	///              ╰mean
+	/// ─╦─═─═─═─═─═─╦─═─═─═─═─═─╦─═─═─
+	///  ╚freeform identifier    ╚name
+	///              ║
+	///              ╚mean
 	/// ```
 	Freeform {
 		/// A string using a reverse DNS naming convention
